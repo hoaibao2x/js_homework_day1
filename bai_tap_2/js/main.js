@@ -22,6 +22,6 @@ var num4 = 9.8;
 var num5 = 5.4;
 
 var avg5Num = (num1 + num2 + num3 + num4 + num5) / 5;
-var result = avg5Num.toFixed(2);
+var result = parseFloat(avg5Num.toFixed(2));
 
 console.log('Trung bình của tổng 5 số thực là ', result);
